@@ -1,9 +1,0 @@
-{application,sample_app,
-             [{applications,[kernel,stdlib,elixir,logger,libcluster,timex,
-                             quantum,distillery]},
-              {description,"sample_app"},
-              {modules,['Elixir.SampleApp','Elixir.SampleApp.Application',
-                        'Elixir.SampleApp.Scheduler','Elixir.SampleApp.Task']},
-              {registered,[]},
-              {vsn,"0.1.0"},
-              {mod,{'Elixir.SampleApp.Application',[]}}]}.
