@@ -8,6 +8,18 @@ This example is taken from [quantum_swarm](https://github.com/peek-travel/quantu
 
 Just run `docker-compose build` to set everything up.
 
+## Libraries
+
+- [Quantum](https://github.com/quantum-elixir/quantum-core/) for managing CRON
+    tasks.
+- [Distillery](https://github.com/bitwalker/distillery) to generate the
+    application which runs on the container to simulate a production
+    environment.
+- [libcluster](https://github.com/bitwalker/libcluster) for automatic cluster
+    formation. Different strategies can be used to achieve it. In this case we
+    [poll from the DNS](https://hexdocs.pm/libcluster/Cluster.Strategy.DNSPoll.html#content)
+    A records to find other availble nodes to connect to.
+
 ## Usage
 
 Start the application with `docker-compose up`. After a while, you should start
