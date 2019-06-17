@@ -1,5 +1,7 @@
 # Running Quantum on multiple nodes
 
+![gif](https://user-images.githubusercontent.com/6866370/59638900-fd429380-912f-11e9-82f2-849e1f085929.gif)
+
 This example is taken from [quantum_swarm](https://github.com/peek-travel/quantum_swarm) but uses a single mix application instead of an Phoenix umbrella application.
 
 ## Setup
